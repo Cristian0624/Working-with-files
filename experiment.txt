@@ -1,0 +1,26 @@
+=== Bank Customer Registry ===
+
+Customer 1
+  Name         : Gluhu Cristi
+  Account #nr  : 1001
+  Deposit Rate : 10.00%
+  Amount       : 10000.00
+  Opened       : 04/04/2026 17:36
+  Last Access  : 04/04/2026 17:36
+
+Customer 2
+  Name         : Novac Ion
+  Account #nr  : 1002
+  Deposit Rate : 20.00%
+  Amount       : 10000.00
+  Opened       : 04/04/2026 17:37
+  Last Access  : 04/04/2026 17:37
+
+Customer 3
+  Name         : Rotari Dan
+  Account #nr  : 1003
+  Deposit Rate : 156.00%
+  Amount       : 5000.00
+  Opened       : 04/04/2026 17:38
+  Last Access  : 04/04/2026 17:38
+

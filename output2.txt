@@ -1,0 +1,5 @@
+=== Customer Duration (Descending) ===
+
+Account #1003 - Rotari Dan: 0 years, 0 months, 0 days
+Account #1002 - Novac Ion: 0 years, 0 months, 0 days
+Account #1001 - Gluhu Cristi: 0 years, 0 months, 0 days

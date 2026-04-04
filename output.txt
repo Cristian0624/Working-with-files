@@ -1,0 +1,3 @@
+Number of sentences are: 3
+Second sentence is: {gg5g5g5 5g5 g5g5gdgrtg.}
+Length of the second sentence: 23
