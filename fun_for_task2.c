@@ -204,6 +204,8 @@ void swap(BankCustomer *a, BankCustomer *b) {
 }
 
 void radix_sort(BankCustomer *customers, int size) {
+    if (size <= 1) return;
+
     int *keys = malloc(size * sizeof(int));
     if (!keys) {
         printf("No more memory\n");
@@ -220,17 +222,26 @@ void radix_sort(BankCustomer *customers, int size) {
     for (int i = 1; i < size; i++)
         if (keys[i] > max_key) max_key = keys[i];
 
+    if (max_key == 0) {  // guard — all durations are 0
+        free(keys);
+        return;
+    }
+
     for (int exp = 1; max_key / exp > 0; exp *= 10)
         counting_sort_by_digit(customers, keys, size, exp);
 
-    for (int i = 0; i < size / 2; i++) {
+    for (int i = 0; i < size / 2; i++)
         swap(&customers[i], &customers[size - 1 - i]);
-    }
 
     free(keys);
 }
 
 void write_output_sorted(BankCustomer *customers, int size) {
+    if (size == 0) {
+        printf("\nNo customers to sort!\n");
+        return;
+    }
+
     BankCustomer *sorted = malloc(size * sizeof(BankCustomer));
     if (!sorted) {
         printf("No more memory\n");

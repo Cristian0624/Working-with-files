@@ -1,5 +1,12 @@
 === Customer Duration (Descending) ===
 
-Account #1003 - Rotari Dan: 0 years, 0 months, 0 days
-Account #1002 - Novac Ion: 0 years, 0 months, 0 days
-Account #1001 - Gluhu Cristi: 0 years, 0 months, 0 days
+Account #2003 - Ceban Victor: 3 years, 1 months, 6 days
+Account #1001 - Giulbas Cristi: 2 years, 0 months, 11 days
+Account #2007 - Ciobanu Pavel: 1 years, 8 months, 15 days
+Account #2002 - Rusu Maria: 1 years, 2 months, 29 days
+Account #2001 - Popa Andrei: 1 years, 1 months, 25 days
+Account #12123 - Ldgudg Svyv: 1 years, 0 months, 11 days
+Account #112 - Novac Vanea: 1 years, 0 months, 11 days
+Account #2005 - Balan Sergiu: 0 years, 11 months, 2 days
+Account #2006 - Dumitru Ana: 0 years, 2 months, 23 days
+Account #2004 - Munteanu Elena: 0 years, 1 months, 19 days
