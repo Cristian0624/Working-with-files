@@ -1,26 +1,90 @@
 === Bank Customer Registry ===
 
 Customer 1
-  Name         : Gluhu Cristi
-  Account #nr  : 1001
-  Deposit Rate : 10.00%
-  Amount       : 10000.00
-  Opened       : 04/04/2026 17:36
-  Last Access  : 04/04/2026 17:36
+  Name         : Rusu Maria
+  Account #nr  : 2002
+  Deposit Rate : 320.00%
+  Amount       : 2500.00
+  Opened       : 08/01/2026 14:45
+  Last Access  : 10/01/2026 16:10
 
 Customer 2
-  Name         : Novac Ion
-  Account #nr  : 1002
-  Deposit Rate : 20.00%
-  Amount       : 10000.00
-  Opened       : 04/04/2026 17:37
-  Last Access  : 04/04/2026 17:37
+  Name         : Popa Andrei
+  Account #nr  : 2001
+  Deposit Rate : 1500.50%
+  Amount       : 5000.00
+  Opened       : 12/02/2026 09:15
+  Last Access  : 15/02/2026 11:20
 
 Customer 3
-  Name         : Rotari Dan
-  Account #nr  : 1003
-  Deposit Rate : 156.00%
-  Amount       : 5000.00
-  Opened       : 04/04/2026 17:38
-  Last Access  : 04/04/2026 17:38
+  Name         : Novac Vanea
+  Account #nr  : 112
+  Deposit Rate : 343.00%
+  Amount       : 6767.00
+  Opened       : 26/03/2026 10:40
+  Last Access  : 02/04/2026 09:12
+
+Customer 4
+  Name         : Munteanu Elena
+  Account #nr  : 2004
+  Deposit Rate : 450.75%
+  Amount       : 3200.00
+  Opened       : 18/04/2026 13:25
+  Last Access  : 20/04/2026 15:50
+
+Customer 5
+  Name         : Ldgudg Svyv
+  Account #nr  : 12123
+  Deposit Rate : 2323.00%
+  Amount       : 78787.00
+  Opened       : 26/03/2026 10:42
+  Last Access  : 26/03/2026 10:42
+
+Customer 6
+  Name         : Giulbas Cristi
+  Account #nr  : 1001
+  Deposit Rate : 67.00%
+  Amount       : 2000.00
+  Opened       : 26/03/2026 10:39
+  Last Access  : 26/03/2026 10:39
+
+Customer 7
+  Name         : Dumitru Ana
+  Account #nr  : 2006
+  Deposit Rate : 125.25%
+  Amount       : 1800.00
+  Opened       : 14/06/2026 17:05
+  Last Access  : 15/06/2026 18:20
+
+Customer 8
+  Name         : Ciobanu Pavel
+  Account #nr  : 2007
+  Deposit Rate : 2340.60%
+  Amount       : 9200.00
+  Opened       : 22/07/2026 07:45
+  Last Access  : 23/07/2026 09:00
+
+Customer 9
+  Name         : Ceban Victor
+  Account #nr  : 2003
+  Deposit Rate : 999.90%
+  Amount       : 10000.00
+  Opened       : 01/03/2026 08:00
+  Last Access  : 05/03/2026 12:30
+
+Customer 10
+  Name         : Balan Sergiu
+  Account #nr  : 2005
+  Deposit Rate : 7800.00%
+  Amount       : 15000.00
+  Opened       : 05/05/2026 10:10
+  Last Access  : 06/05/2026 11:11
+
+Customer 11
+  Name         : Micu Alex
+  Account #nr  : 1234
+  Deposit Rate : 10.00%
+  Amount       : 676767.00
+  Opened       : 07/04/2026 20:39
+  Last Access  : 07/04/2026 20:39
 

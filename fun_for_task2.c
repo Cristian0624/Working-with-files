@@ -70,7 +70,6 @@ void add_bank_customer(BankCustomer **customer, int *size , int *capacity) {
             p->opening_date.minute);
     }
     else {
-        get_current_date(&p->opening_date);
         printf("Enter date in the format (DD/MM/YYYY): ");
         scanf("%d/%d/%d", &p->opening_date.day, &p->opening_date.month, &p->opening_date.year);
     }
@@ -80,7 +79,7 @@ void add_bank_customer(BankCustomer **customer, int *size , int *capacity) {
     scanf("%lf", &p->deposit_money);
     get_current_date(&p->access_date);
     clear_buffer();
-    (*size)++;
+    (*size)++; // Increment the size after adding the new customer
     printf("Customer added successfully!\n");
 }
 

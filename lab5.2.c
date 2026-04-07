@@ -12,6 +12,7 @@ int main() {
         printf("(3) Save registry to experiment.txt\n");
         printf("(4) Write sorted durations to output.txt\n");
         printf("(5) Merge into result.txt and display\n");
+        printf("(6) Read from a file\n");
         printf("(0) Exit\n");
         printf("Choice: ");
         scanf("%d", &choice);
@@ -37,6 +38,10 @@ int main() {
             }
             case 5: {
                 merge_files("experiment.txt", "output2.txt", "result.txt");
+                break;
+            }
+            case 6: {
+                read_from_file(&customers, &size, &capacity);
                 break;
             }
             case 0: {
