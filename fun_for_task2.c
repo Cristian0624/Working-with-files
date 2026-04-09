@@ -70,6 +70,7 @@ void add_bank_customer(BankCustomer **customer, int *size , int *capacity) {
             p->opening_date.minute);
     }
     else {
+        get_current_date(&p->opening_date);
         printf("Enter date in the format (DD/MM/YYYY): ");
         scanf("%d/%d/%d", &p->opening_date.day, &p->opening_date.month, &p->opening_date.year);
     }
@@ -307,4 +308,38 @@ void merge_files(const char *file1, const char *file2, const char *result) {
     while ((ch = fgetc(read_result)) != EOF)
         putchar(ch);
     fclose(read_result);
+}
+
+void read_from_file(BankCustomer **customer, int *size, int *capacity) {
+    char filename[100];
+    printf("Enter the file name to read from: ");
+    scanf("%s", filename);
+
+    FILE *file = fopen(filename, "r");
+    if (file == NULL) {
+        printf("File not found.\n");
+        return;
+    }
+
+    int count;
+    if (fscanf(file, "%d", &count) != 1) {
+        fclose(file);
+        return;
+    }
+    *size = 0;
+    *capacity = count;
+    *customer = realloc(*customer, (*capacity) * sizeof(BankCustomer));
+
+    for (int i = 0; i < count; i++) {
+        BankCustomer *p = &((*customer)[i]);
+        fscanf(file, "%s %s %d %f %lf %d %d %d %d %d %d %d %d %d %d",
+               p->name, p->surname, &p->account_number, &p->deposit_rate, &p->deposit_money,
+               &p->opening_date.day, &p->opening_date.month, &p->opening_date.year,
+               &p->opening_date.hour, &p->opening_date.minute,
+               &p->access_date.day, &p->access_date.month, &p->access_date.year,
+               &p->access_date.hour, &p->access_date.minute);
+        (*size)++;
+    }
+    fclose(file);
+    printf("Loaded %d customers from file.\n", *size);
 }
